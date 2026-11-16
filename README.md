@@ -223,6 +223,15 @@ mvn clean test
 
 ---
 
+## Postman Collection
+
+A complete Postman collection is included in the root directory: [`postman_collection.json`](postman_collection.json).
+- Import it into Postman (`File -> Import -> postman_collection.json`).
+- Automatically captures and saves your JWT token upon successful login into the `token` collection variable.
+- Includes pre-configured endpoints for User Registration, Login, Category Listing, Expense CRUD, Pagination, Filtering, and Monthly Summaries.
+
+---
+
 ## Key Interview Talking Points
 
 1. **How Does JWT Authentication Work Here?**
